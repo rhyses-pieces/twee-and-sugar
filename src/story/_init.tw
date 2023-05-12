@@ -1,0 +1,11 @@
+:: StoryInterface
+<div id="interface">
+  <div id="menu" data-init-passage="menu"></div>
+  <div id="notifications" data-passage="notifications"></div>
+
+  <!-- you must have one element with #id of 'passages' --> 
+  <div id="passages">
+    <div class="passage" id="" data-passage=""></div>
+  </div>
+</div>
+<script src="src/entry.ts" type="module"></script>

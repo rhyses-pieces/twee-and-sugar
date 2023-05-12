@@ -1,0 +1,34 @@
+{
+  "name": "twee-setup",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:assets": "tsc && vite build",
+    "build:tweego": "tweego -o index.html -m src/assets/vendor src/story --head=src/head.html",
+    "preview": "vite preview",
+    "watch:assets": "tsc && vite build --watch",
+    "watch:tweego": "tweego -w -t -o index.html -m src/assets/vendor src/story --head=src/head.html",
+    "start": "npm-run-all -p watch:* dev",
+    "serve": "run-s build:* preview",
+    "build": "run-s build:*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/twine-sugarcube": "^2.36.4",
+    "autoprefixer": "^10.4.14",
+    "less": "^4.1.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-nested": "^6.0.1",
+    "postcss-preset-env": "^8.3.2",
+    "rimraf": "^5.0.0",
+    "sass": "^1.62.1",
+    "stylus": "^0.59.0",
+    "tslib": "^2.5.0",
+    "tweego-bin": "^0.4.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-live-reload": "^3.0.2"
+  }
+}

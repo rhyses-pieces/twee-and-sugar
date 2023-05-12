@@ -1,0 +1,16 @@
+:: StoryData
+{
+  "ifid": "22476395-16D4-4FD1-8ADB-949504877E0A",
+  "format": "SugarCube",
+  "format-version": "2.30.0"
+}
+
+:: StoryTitle
+Hello World!
+
+:: Start
+This is the first passage!
+
+The below is a test of custom user script compiled from Typescript!
+
+<button id="counter" type="button"></button>
