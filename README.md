@@ -24,32 +24,25 @@ Supports:
 ## Quickstart
 Clone or click the `Use Template` from this repository:
 ```sh
-git clone 
+git clone https://github.com/rhyses-pieces/twee-setup
 ```
 
 Use either npm or yarn to install dependencies:
 ```sh
 npm install
-```
-
-OR
-```sh
 yarn install
 ```
 
 To start developing:
 ```sh
 npm start
-```
-
-OR
-```sh
 yarn start
 ```
 
 ## Commands
 
 | Command | Action |
+| --- | --- |
 | `npm install` | Installs all dependencies |
 | `npm start` | Starts the dev server |
 | `npm run build` | Builds your project to `dist/` folder |
@@ -160,11 +153,11 @@ You need to reference the entry point file somewhere in your HTML files to be co
 It must be referenced exactly in this format in your HTML files. You can also edit the `package.json` file in the root of your project to include a reference to the entry point file like this:
 
 ```json
-...
 "scripts": {
+  ...
   "watch:tweego": "tweego -w -t -o index.html -m src/assets/vendor -m src/assets/scripts/some-html-file.html src/story --head=src/head.html",
+  ...
 }
-...
 ```
 
 The way the entry point file has been included is, admittedly, a little hacky. Please feel free to contribute any improvements or suggestions!
@@ -180,6 +173,13 @@ Inspired by many great tools made with Twine, including:
 - [Tweego](https://github.com/tmedwards/tweego)
   - [NPM binary](https://github.com/double-a-stories/tweego-bin)
 - [Vite](https://vitejs.dev/)
+
+## See
+- [Tweego official documentation](https://www.motoslave.net/tweego/)
+- [Twee v3 notation specs](https://github.com/iftechfoundation/twine-specs/blob/master/twee-3-specification.md)
+- [Twine Cookbook](https://twinery.org/cookbook/)
+- [Twine resources](https://twinelab.net/twine-resources/#/)
+- [Vite official documentation](https://vitejs.dev/guide/)
 
 ## Contributions
 .. are welcome! Please feel free to submit a PR, issue, suggestion, etc for this project. Give it a star if you use it in your own projects!
