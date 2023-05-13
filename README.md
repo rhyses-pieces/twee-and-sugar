@@ -26,7 +26,7 @@ Supports:
 ## Quickstart
 Clone or click the `Use Template` from this repository:
 ```sh
-git clone https://github.com/rhyses-pieces/twee-setup
+git clone https://github.com/rhyses-pieces/twee-and-sugar
 ```
 
 Use either npm or yarn to install dependencies:
