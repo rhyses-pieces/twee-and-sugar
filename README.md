@@ -20,7 +20,8 @@ Supports:
 [Quickstart](#quickstart) - [Commmands](#commands) - [Structure](#structure) - [Configuration](#configuration) - [Tips](#tips) - [See more](#see) - [Acknowledgements](#acknowledgements) - [Contributions](#contributions)
 
 ## Requirements
-- Node
+- Node v18.15.0 or lower
+  - This is because the Tweego binary included is incompatible with later versions
 - NPM or Yarn 
 
 ## Quickstart
